@@ -30,7 +30,7 @@ Available on:
   http://127.0.0.1:8080
 Hit CTRL-C to stop the server
 
-Open browser and enter localhost:8080 to open the login page of the application. Open a command line and goto the application installation/tests folder. Execute below command to run the protractor test.
+Open browser and enter localhost:8080 to open the login page of the application. Open a command line and goto the application installation/test/e2e folder. Execute below command to run the protractor test.
 
 protractor conf.js
 
@@ -41,11 +41,12 @@ dir() instead.
 [00:41:16] I/launcher - Running 1 instances of WebDriver
 [00:41:16] I/hosted - Using the selenium server at http://localhost:4444/wd/hub
 Started
-..
+......
+......
+6 specs, 0 failures
+Finished in 25.253 seconds
 
+Executed 6 of 6 specs SUCCESS in 25 secs.
 
-2 specs, 0 failures
-Finished in 8.883 seconds
-
-[00:41:28] I/launcher - 0 instance(s) of WebDriver still running
-[00:41:28] I/launcher - chrome #01 passed
+[11:43:13] I/launcher - 0 instance(s) of WebDriver still running
+[11:43:13] I/launcher - chrome #01 passed
